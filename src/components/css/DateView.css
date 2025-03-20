@@ -1,0 +1,37 @@
+:root {
+    --medium-border-radius: 10px;
+    --day-field-with: 2em;
+    --day-field-height: 1.5em;
+}
+
+.date {
+    margin-right: 0.5em;
+}
+
+.flex-container-dateView {
+    display: flex;
+    align-items: center;
+}
+
+.dayActive,
+.dayInactive {
+    width: var(--day-field-with);
+    height: var(--day-field-height);
+    margin-right: 0.2em;
+    padding: 0.2em;
+    border-radius: var(--medium-border-radius);
+    border: 1px solid #555555;
+}
+
+.dayActive {
+    color: coral;
+    background-color: #333333;
+}
+
+.dayInactive {
+    color: darkgray;
+}
+
+.font-xx-large {
+    font-size: large;
+}

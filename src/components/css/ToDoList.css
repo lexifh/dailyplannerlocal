@@ -1,0 +1,21 @@
+button img {
+    height: 2em;
+}
+
+button {
+    padding: 0.3em;
+}
+
+.flex-container-todo {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container-todo > * {
+    margin-right: 1em;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    text-align: left;
+}

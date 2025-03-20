@@ -1,0 +1,10 @@
+.flex-container-weather {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container-weather > * {
+    height: 3em;
+    padding: 0.5em;
+    cursor: pointer;
+}

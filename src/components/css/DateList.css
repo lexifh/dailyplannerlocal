@@ -1,0 +1,13 @@
+.flex-container-dateList {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container-dateList > * {
+    margin-right: 1em;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    text-align: left;
+}

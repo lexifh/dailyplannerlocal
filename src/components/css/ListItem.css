@@ -1,0 +1,40 @@
+.listItemStyle {
+    background-color: #444444;
+    font-size: larger;
+    border-radius: 8px;
+    margin-top: 1em;
+    padding: 0.5em;
+    min-height: 5em;
+    min-width: 18em;
+}
+
+.listButtonImg {
+    height: 1em;
+}
+
+.listButtonStyle {
+    margin-right: 0.5em;
+}
+
+.container-text {
+    display: flex;
+}
+
+.container-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.flex-container-listItem {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container-listItem > * {
+    margin-right: 1em;
+}
+
+.listItem {
+    cursor: pointer;
+}

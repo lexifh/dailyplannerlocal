@@ -1,0 +1,17 @@
+.container-hydration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-hydration > img {
+    height: 6em;
+    padding: 1.5em;
+    cursor: pointer;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.container-hydration > img:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
