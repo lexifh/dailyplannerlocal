@@ -1,3 +1,7 @@
+# Daily Planner
+
+This small daily planner is a sample and a training for my React programming skills. It's just a first version to learn about using React with hooks.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
